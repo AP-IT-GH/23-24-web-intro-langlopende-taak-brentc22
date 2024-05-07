@@ -1,0 +1,551 @@
+
+@media (max-width: 767px) {
+
+    .col-left {
+        max-width: 20%; /* Maximaal breedte voor linker- en rechterkolom */
+        background-color: #061D26;
+    }
+
+    .col {
+        background-color: #061D26;
+        text-align: left;
+        color: #fff;
+    }
+
+
+
+    .container {
+        color: #fff;  
+      }
+
+
+      .autmatezone {
+        font-size: 48px;
+        color: #30BF6E;
+    }
+
+    .main-menu {
+        display: none; /* Verberg de hoofdmenu op deze schermgrootte */
+    }
+
+    .center {
+        display: block;
+        margin: 0 auto;
+    }
+    
+   
+
+
+
+    header {
+        background-color: #30BF6E; /* Achtergrondkleur van de header */
+        border-bottom: 2px solid #30BF6E; /* Bovenste rand met de kleur van jouw keuze */
+        padding: 10px 0; /* Ruimte boven en onder de inhoud van de header */
+        width: 100%;
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);
+        box-sizing: border-box; /* Zorgt ervoor dat de padding en rand binnen de breedte van de header vallen */
+    }
+
+
+    .container-hoofding {
+        max-width: 1200px; /* Maximale breedte van de container */
+        margin: 0 auto; /* Center de container op de pagina */
+        display: flex; /* Gebruik flexbox voor uitlijning */
+        align-items: center; /* Centreer items verticaal in de container */
+    }
+    
+    .logo {
+        width: 100px; /* Breedte van het logo */
+        height: auto; /* Hoogte automatisch aanpassen om de verhoudingen te behouden */
+    }
+
+
+
+
+
+
+    #dropdownButton {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .dropdown-menu {
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 2;
+        display: none;
+    }
+    
+    .dropdown-menu li {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-menu li:hover {
+        background-color: #f1f1f1;
+    }
+    
+    #dropdownButton:hover + .dropdown-menu,
+    .dropdown-menu:hover {
+        display: block;
+    }
+    
+    /* Voeg een kleine vertraging toe voordat de dropdown-menu verdwijnt */
+    .dropdown-menu {
+        transition: display 0.3s ease;
+    }
+
+
+
+        /*producten*/
+
+        .container-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .box {
+            margin-top: 20px; /* Witte ruimte tussen de boxen */
+        }
+
+
+    }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .col-left {
+        max-width: 20%; /* Maximaal breedte voor linker- en rechterkolom */
+        background-color: #061D26;
+    }
+
+    .col {
+        background-color: #061D26;
+        text-align: left;
+        color: #fff;
+    }
+
+
+
+
+    .tekst-container {
+        color: #fff; /* Zet de tekstkleur op wit */
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 0 20px;
+        text-align: center;
+    }
+    
+
+
+
+    .container {
+        color: #fff;  
+      }
+
+
+      .autmatezone {
+        font-size: 48px;
+        color: #30BF6E;
+    }
+    
+    .center {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    
+    .main-menu {
+        display: none; /* Verberg de hoofdmenu op deze schermgrootte */
+    }
+    
+   
+
+
+
+    header {
+        background-color: #30BF6E; /* Achtergrondkleur van de header */
+        border-bottom: 2px solid #30BF6E; /* Bovenste rand met de kleur van jouw keuze */
+        padding: 10px 0; /* Ruimte boven en onder de inhoud van de header */
+        width: 100%;
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);
+        box-sizing: border-box; /* Zorgt ervoor dat de padding en rand binnen de breedte van de header vallen */
+    }
+
+
+    .container-hoofding {
+        max-width: 1200px; /* Maximale breedte van de container */
+        margin: 0 auto; /* Center de container op de pagina */
+        display: flex; /* Gebruik flexbox voor uitlijning */
+        align-items: center; /* Centreer items verticaal in de container */
+    }
+    
+    .logo {
+        width: 100px; /* Breedte van het logo */
+        height: auto; /* Hoogte automatisch aanpassen om de verhoudingen te behouden */
+    }
+
+
+
+
+
+
+    #dropdownButton {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .dropdown-menu {
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 2;
+        display: none;
+    }
+    
+    .dropdown-menu li {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-menu li:hover {
+        background-color: #f1f1f1;
+    }
+    
+    #dropdownButton:hover + .dropdown-menu,
+    .dropdown-menu:hover {
+        display: block;
+    }
+    
+    /* Voeg een kleine vertraging toe voordat de dropdown-menu verdwijnt */
+    .dropdown-menu {
+        transition: display 0.3s ease;
+    }
+    
+    
+
+    /* contact pagina */
+
+
+    .contact-hoofd {
+    
+        font-size: 48px; /* Grootte van de tekst aanpassen */
+        color: #ffffff;
+    }
+    
+    
+    /* Stijlen voor formulier */
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    label {
+        display: block;
+        margin-bottom: 10px;
+        color: white; /* Tekstkleur wit */
+    }
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+        color: white; /* Tekstkleur wit */
+    }
+    textarea {
+        resize: vertical;
+        height: 150px;
+        color: white; /* Tekstkleur wit */
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white; /* Tekstkleur wit */
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    .contact-info {
+        color: white; /* Tekstkleur wit maken */
+        margin-top: 20px; /* Ruimte boven de tekst toevoegen */
+        font-size: 16px; /* Lettergrootte aanpassen */
+    }
+    
+
+
+    /*producten*/
+
+    .container-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        margin-top: 20px; /* Witte ruimte tussen de boxen */
+    }
+
+
+    /*software page */
+
+    .container p {
+        color: white;
+    }
+    
+    
+    .col-md-12 img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
+
+  
+@media (min-width: 992px) {
+
+    .col-left {
+        max-width: 20%; /* Maximaal breedte voor linker- en rechterkolom */
+        background-color: #061D26;
+    }
+
+    .col {
+        background-color: #061D26;
+        text-align: left;
+    }
+
+
+    #dropdownButton {
+        display: none; /* Verberg de knop standaard */
+    }
+
+
+
+    body {
+        background-color: #061D26; /* Hier kun je de gewenste kleur specificeren, bijvoorbeeld hexadecimaal, RGB of een kleurnaam */
+    }
+    
+    .container {
+      color: #fff;  
+    }
+    .autmatezone {
+        font-size: 48px;
+        color: #30BF6E;
+    }
+    
+    .center {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .tekst-container {
+        max-width: 80%; /* Pas dit aan naar de gewenste maximale breedte */
+        margin: 0 auto; /* Hiermee wordt de container gecentreerd op de pagina */
+        padding: 0 20px; /* Voegt ruimte toe aan de linker- en rechterkant van de container */
+        text-align: center; /* Centreert de tekst binnen de container */
+        color: #ffffff; /* Stelt de tekstkleur in */
+    }
+    
+    header {
+        background-color: #30BF6E; /* Achtergrondkleur van de header */
+        border-bottom: 2px solid #30BF6E; /* Bovenste rand met de kleur van jouw keuze */
+        padding: 10px 0; /* Ruimte boven en onder de inhoud van de header */
+        width: 100%;
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);
+        box-sizing: border-box; /* Zorgt ervoor dat de padding en rand binnen de breedte van de header vallen */
+    }
+    
+
+    
+    
+    .container-hoofding {
+        max-width: 1200px; /* Maximale breedte van de container */
+        margin: 0 auto; /* Center de container op de pagina */
+        display: flex; /* Gebruik flexbox voor uitlijning */
+        align-items: center; /* Centreer items verticaal in de container */
+    }
+    
+    .logo {
+        width: 100px; /* Breedte van het logo */
+        height: auto; /* Hoogte automatisch aanpassen om de verhoudingen te behouden */
+    }
+    
+    nav ul {
+        list-style-type: none; /* Verwijder de standaard lijststijl */
+        margin: 0; /* Verwijder marges om de lijst dicht bij de rand van de container te plaatsen */
+        padding: 0; /* Verwijder padding om de lijst dicht bij de rand van de container te plaatsen */
+    }
+    
+    nav ul li {
+        display: inline-block; /* Plaats de lijstitems naast elkaar */
+        margin-right: 20px; /* Ruimte tussen de lijstitems */
+    }
+    
+    nav ul li a {
+        text-decoration: none; /* Verwijder standaard onderstreping van links */
+        color: #ffffff; /* Kleur van de linktekst */
+        font-size: 18px; /* Grootte van de linktekst */
+    }
+    nav ul li:nth-child(3) a {
+        /* Stijlen voor de link naar de mogelijkheden */
+        color: #ffffff; /* Kleur van de linktekst */
+        font-size: 18px; /* Grootte van de linktekst */
+        /* Voeg hier eventueel andere stijlen toe */
+    }
+    
+    nav ul li:nth-child(4) a {
+        /* Stijlen voor de link naar de software */
+        color: #ffffff; /* Kleur van de linktekst */
+        font-size: 18px; /* Grootte van de linktekst */
+        /* Voeg hier eventueel andere stijlen toe */
+    }
+    nav ul li:last-child a {
+        /* Stijlen voor de link naar de homepagina */
+        color: #ffffff; /* Kleur van de linktekst */
+        font-size: 18px; /* Grootte van de linktekst */
+        /* Voeg hier eventueel andere stijlen toe */
+    }
+    
+/*hier onder is contact pagina style */
+
+.contact-hoofd {
+    
+    font-size: 48px; /* Grootte van de tekst aanpassen */
+    color: #ffffff;
+}
+
+
+/* Stijlen voor formulier */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: white; /* Tekstkleur wit */
+}
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    color: white; /* Tekstkleur wit */
+}
+textarea {
+    resize: vertical;
+    height: 150px;
+    color: white; /* Tekstkleur wit */
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white; /* Tekstkleur wit */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.contact-info {
+    color: white; /* Tekstkleur wit maken */
+    margin-top: 20px; /* Ruimte boven de tekst toevoegen */
+    font-size: 16px; /* Lettergrootte aanpassen */
+}
+
+
+
+
+
+
+
+
+/* dit is code voor mogelijheden pagina */
+
+
+.section {
+color: #fff;
+
+}
+
+
+
+
+/* producten style code */
+
+.container-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* sofware code */
+
+.container p {
+    color: white;
+}
+
+
+.col-md-12 img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+/* foooterr */ 
+
+.footerr {
+    color: #fff;
+}
+  
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
